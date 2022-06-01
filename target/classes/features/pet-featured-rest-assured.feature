@@ -16,7 +16,7 @@ Feature: (e2e) Validate pets
 
     Examples:
     |id    |categoryName|name  |photoUrl              |
-    |102023|gato        |maikel|https://www.gatos.com/|
+    |101101|gato        |maikel|https://www.gatos.com/|
 
 
 

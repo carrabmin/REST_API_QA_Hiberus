@@ -1,12 +1,12 @@
 {
-  "id": 371,
+  "id": 101101,
   "category": {
-    "id": 161,
-    "name": "string"
+    "id": 101,
+    "name": "gato"
   },
-  "name": "string",
+  "name": "maikel",
   "photoUrls": [
-    "string"
+    "https://www.gatos.com/"
   ],
   "tags": [
     {

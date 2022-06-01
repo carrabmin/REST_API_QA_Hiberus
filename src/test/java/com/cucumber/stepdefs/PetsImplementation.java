@@ -29,7 +29,7 @@ public class PetsImplementation implements Serializable {
 
     @Given("the following get request that brings us the pet by id")
     public Response getPet() {
-        responseGetPet = given().given().get("https://petstore.swagger.io/v2/pet/102023");
+        responseGetPet = given().given().get("https://petstore.swagger.io/v2/pet/101101");
         //bodyResponse = responseGetPet.getBody().asString();
         return responseGetPet;
     }
@@ -37,12 +37,12 @@ public class PetsImplementation implements Serializable {
     @And("the response is 200")
     public void validateResponse() {
 
-        assertTrue("The response is not 200", responseGetPet.statusCode()==200);
+        assertTrue("The response is not 200", getPet().statusCode()==200);
     }
 
     @And("the id is {int}")
     public void theIdIs(Integer id) {
-        responseGetPet.then().body("$", hasItems(id));
+        responseGetPet.then().body("$", hasKey(101101));
     }
 
     @And("the body response contains category name {string}")
