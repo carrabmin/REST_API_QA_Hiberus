@@ -1,12 +1,12 @@
 {
-  "id": 101101,
+  "id": 101,
   "category": {
     "id": 101,
-    "name": "gato"
+    "name": "periquito"
   },
-  "name": "maikel",
+  "name": "faisek",
   "photoUrls": [
-    "https://www.gatos.com/"
+    "https://www.pajaros.com/"
   ],
   "tags": [
     {
