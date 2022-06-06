@@ -1,0 +1,18 @@
+{
+  "id": 101,
+  "category": {
+    "id": 101,
+    "name": "periquito"
+  },
+  "name": "faisek",
+  "photoUrls": [
+    "https://www.pajaros.com/"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

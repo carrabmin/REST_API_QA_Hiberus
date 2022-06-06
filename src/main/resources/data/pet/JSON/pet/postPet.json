@@ -1,0 +1,18 @@
+{
+  "id": 101,
+  "category": {
+    "id": 101,
+    "name": "gato"
+  },
+  "name": "maikel",
+  "photoUrls": [
+    "https://www.gatos.com/"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
